@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Lateef');
+
+:root { 
+	font-family: 'Lateef', serif;
+	color:#fff;
+	font-size:16px;
+    background: #333;
+	float:right;
+	direction: rtl;
+}
+
+
+.main{
+left:25%;
+width:50%;
+height:50%;
+top:25%;
+position:absolute;
+text-align:center;
+}
+
+h1{
+	font-size:6em;
+}
+p{
+	font-size:2em;
+}
