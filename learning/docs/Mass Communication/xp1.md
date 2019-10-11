@@ -1,5 +1,7 @@
 # Cultivation theory 
 
+## Midterm
+
 * 10/16, 10:30 - 11:45am
 * in this class
 * Week 1 to week 7 
@@ -8,7 +10,7 @@
 
 
 
-media content cultivate our perciption, the more we are exposed, the more we accept its representation.
+media content cultivate our perception, the more we are exposed, the more we accept its representation.
 
 * Likelihood to be a victim within a week
   * Light TV viewer: 1%
