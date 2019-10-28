@@ -58,7 +58,7 @@ To gain understanding of the history, models, concepts, and theories of mass com
 | Week 7 - 16.10      | *Midterm exam*                                               | ✔️    |
 | Week 8 -            | *Study break*                                                | ✔️    |
 | Week 8 -            | *Study break*                                                | ✔️    |
-| Week 9 - 28.10      | [Parasocial interaction](a3)                                 | ✔️    |
+| Week 9 - 28.10      | [Parasocial interaction](/a3/)                               | ✔️    |
 | Week 9 -            | Effects of Violence and sex in the Media                     |      |
 | Week 10 -           | Persuasion 1                                                 |      |
 | Week 10 -           | Persuasion 2                                                 |      |
