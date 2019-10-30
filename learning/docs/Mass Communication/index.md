@@ -59,7 +59,7 @@ To gain understanding of the history, models, concepts, and theories of mass com
 | Week 8 -            | *Study break*                                                | ✔️    |
 | Week 8 -            | *Study break*                                                | ✔️    |
 | Week 9 - 28.10      | [Parasocial interaction](/a3/)                               | ✔️    |
-| Week 9 -            | Effects of Violence and sex in the Media                     |      |
+| Week 9 -  30.10     | [Persuasion](/a4/)                                           | ✔️    |
 | Week 10 -           | Persuasion 1                                                 |      |
 | Week 10 -           | Persuasion 2                                                 |      |
 | Week 11 -           | Mass communication and the Internet, Audience and media literacy 1 |      |
