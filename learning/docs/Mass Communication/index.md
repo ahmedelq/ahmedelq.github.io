@@ -60,11 +60,11 @@ To gain understanding of the history, models, concepts, and theories of mass com
 | Week 8 -            | *Study break*                                                | ✔️    |
 | Week 9 - 28.10      | [Parasocial interaction](a3/)                                | ✔️    |
 | Week 9 -  30.10     | [Persuasion](a4/)                                            | ✔️    |
-| Week 10 -           | Persuasion 1                                                 |      |
-| Week 10 -           | Persuasion 2                                                 |      |
-| Week 11 -           | Mass communication and the Internet, Audience and media literacy 1 |      |
-| Week 11 -           | Mass communication and the Internet, Audience and media literacy 2 |      |
-| Week 12 -           | Mass communication and the Internet, Audience and media literacy 3 |      |
+| Week 10 -           | Persuasion 1                                                 | ✔️    |
+| Week 10 -           | Persuasion 2                                                 | ✔️    |
+| Week 11 -           | Entertainment                                                | ✔️    |
+| Week 11 -           | Mass communication and the Internet                          | ✔️    |
+| Week 12 - 13.11     | Mass communication and the Internet, Fake news               |      |
 | Week 12 -           | Mass communication and the Internet, Audience and media literacy 4 |      |
 |                     |                                                              |      |
 
