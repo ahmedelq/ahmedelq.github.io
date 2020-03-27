@@ -3,7 +3,7 @@ layout: post
 title: Hello world
 subtitle : Once again!
 author: Ahmed Alq
-comments : 
+comments : true
 ---
 In mid 2012, I deployed my first website; a rudimentary PHP, MySQL-based hosted at 000webhost on a free .tk domain. What started as a programming hobby turned into a blog, a place where I can finally post things I learnt (which also helped me to learn English), programs I wrote in VB.NET, quotes I like, gallery for my photoshop designs. Although I didn't announce it to everyone and I kinda kept it a secret, my 14 years old me was proud of it. Then in 2014 I switched to ahmedelq.sa, I kept blogging few times until the free host decided to finally get rid of it. 
 

@@ -4,7 +4,7 @@ title: Are recommendation systems radicalizing people?
 subtitle : or maybe not
 author: Ahmed Alq
 tags: [opinions]
-comments : 
+comments: true
 ---
 ![Bubbles (Photo by David Clode on Unsplash)](https://miro.medium.com/max/1200/0*t4b-h8wdYtUu93Ap)
 

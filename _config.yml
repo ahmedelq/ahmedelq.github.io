@@ -34,7 +34,7 @@ theme_settings :
     instagram: ahmelq
 
   # Disqus
-  disqus_shortname :
+  disqus_shortname: https-ahmedelq-sa
 
 # Pagination
 paginate: 5
