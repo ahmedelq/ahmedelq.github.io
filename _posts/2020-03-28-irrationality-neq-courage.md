@@ -12,7 +12,7 @@ comments: true
 
 I was just leaving China when the first cases of coronavirus were declared. Quickly, it got out of control infecting almost all of the globe, causing the death of hundreds of thousands. <br><br>
 
-Qatif, where the minority Shiites live, was the first Saudi city to be infected (and quarantined) due to pilgrims illegally coming from nearby Iran which hardly did anything to counter the virus. Initially, Iran was reluctant to close the shrines as they would be "houses of cure". Soon, the results of this irrational decision contributed to a horrible outbreak that turned the country into a quagmire; more than 33k infections and over 2.3k deaths. <br><br>
+Qatif, where the minority Shiites live, was the first Saudi city to be infected (and quarantined) due to pilgrims illegally coming from nearby Iran which hardly did anything to counter the virus. Initially, Iran was reluctant to close the shrines as they would be "[houses of cure](https://www.bbc.com/news/world-middle-east-51651454)". Soon, the results of this irrational decision contributed to a horrible outbreak that turned the country into a quagmire; more than 33k infections and over 2.3k deaths. <br><br>
 
 In contrast, the Saudi government responded quickly and wisely to mitigate the situation; schools got cancelled, borders got closed, and later a dusk-till-dawn curfew has been imposed. This is how a responsible, rational state should act.
 
