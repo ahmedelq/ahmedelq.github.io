@@ -2,6 +2,7 @@
 layout: post
 title: Your torch will be passed
 author: Ahmed Alq
+tags: [meditations]
 comments : true
 ---
 ![exponential growth](https://i.imgur.com/8tz9FKI.png)
