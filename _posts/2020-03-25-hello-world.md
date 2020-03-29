@@ -5,7 +5,9 @@ subtitle : Once again!
 author: Ahmed Alq
 comments : true
 ---
-In mid 2012, I deployed my first website; a rudimentary PHP, MySQL-based hosted at 000webhost on a free .tk domain. What started as a programming hobby turned into a blog, a place where I can finally post things I learnt (which also helped me to learn English), programs I wrote in VB.NET, quotes I like, gallery for my photoshop designs. Although I didn't announce it to everyone and I kinda kept it a secret, my 14 years old me was proud of it. Then in 2014 I switched to ahmedelq.sa, I kept blogging few times until the free host decided to finally get rid of it. 
+![My old blog](/assets/img/oldblog.jpg)
+
+In mid 2012, I deployed my first website; a rudimentary PHP, MySQL-based hosted at 000webhost on a free .tk domain. What started as a programming hobby turned into a blog, a place where I can finally post things I learnt (which also helped me to learn English), programs I wrote in VB.NET, quotes I like, gallery for my photoshop designs. Although I didn't announce it to everyone and I kinda kept it a secret, my 14 years old me was proud of it. Then in 2014 I switched to ahmedelq.sa, I kept on blogging until the free host decided to finally terminate it. 
 
 Now I finally had the time (and energy) to make another blog, and which is more important this time my motive and philosophy of this blog will be different; Wholly, because writing [improves one's critical thinking](https://youtu.be/bfDOoADCfkg). Moreover, I think some of my private and future writings deserve to be shared for public benefit, as Mohammed (PBUH) once said: "When a man dies, his deeds come to an end except for three things: ceaseless charity; **a knowledge which is beneficial**, or a virtuous descendant who prays for him". Here I'll share things I find interesting, opinions, and things I learnt.
 
