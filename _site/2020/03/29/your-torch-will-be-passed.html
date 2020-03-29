@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+
+  <!-- Spoqa Han Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- OG Tag -->
+  
+  <meta name="title" content="Alq: Your torch will be passed" />
+  <meta name="author" content="Ahmed Helmi" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:title" content="Alq: Your torch will be passed" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website, blog" />
+  <meta property="og:image"
+    content="http://localhost:4000/assets/img/dp.png" />
+  <meta property="og:site_name" content="Alq" />
+  <meta property="og:url" content="http://localhost:4000/2020/03/29/your-torch-will-be-passed.html" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Alq: Your torch will be passed" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image"
+    content="http://localhost:4000/assets/img/dp.png" />
+
+  <title>Alq: Your torch will be passed</title>
+</head>
+<body>
+  <div class="container">
+    
+
+<header>
+  <nav>
+    <ul>
+      
+      <!-- others -->
+      <a href="http://localhost:4000">
+        <li class="current btn-nav">Blog</li>
+      </a>
+      <a href="http://localhost:4000/tags">
+        <li class="btn-nav">Tags</li>
+      </a>
+      
+    </ul>
+  </nav>
+</header>
+<div id="post">
+  <section class="post-header">
+    <h1 class="title">Your torch will be passed</h1>
+    <p class="subtitle"></p>
+    <p class="meta">
+      March 29, 2020
+    </p>
+  </section>
+  <section class="post-content">
+    <p><img src="https://i.imgur.com/8tz9FKI.png" alt="exponential growth" /></p>
+
+<p>Consider the ill or good habits that runs your day-to-day routines, they -with great probability- will be passed to your offspring. The strokes you make will be permanent and stronger with each generation. You don’t have control over what the ancestors gave you, but only on inscribing the good, and turning the ill into a palimpsest. When you decide to quit a bad habit or adopt a good one, its positive effects will be passed to your next generations, and vice versa. If you smoke for example, it’s more <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5084564/">likely</a> that your children will take on the same path, from there on it may continue; your children will pass it to your grandchildren and your grandchildren will pass it to your great-grandchildren and so on, all because of you.</p>
+
+  </section>
+</div>
+
+<div id="top" class="top-btn" onclick="moveTop()">
+  <i class="fas fa-chevron-up"></i>
+</div>
+
+<!-- Disqus -->
+
+<div id="comments">
+  <div class="border">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'https-ahmedelq-sa';
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript></noscript>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    Original theme by
+    <a href="https://github.com/NAYE0NG">Nayeong Kim</a>.
+  </div>
+</footer>
+
+
+<script>
+  var lastScrollTop = 0;
+  window.onscroll = function () {
+    var st = document.body.scrollTop || document.documentElement.scrollTop;
+    if (st > 250) {
+      document.getElementById("top").style.display = "block"
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.opacity = 0
+      } else {
+        document.getElementById("top").style.opacity = 1
+      }
+    } else {
+      document.getElementById("top").style.opacity = 0
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.display = "none"
+      }
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  }
+  function moveTop() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
+</script>
+  </div>
+</body>
+
+</html>
