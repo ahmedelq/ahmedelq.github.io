@@ -1,7 +1,11 @@
 ---
 layout: page
 ---
+{ % if page.lang %}
+<div id="post" class="arabic">
+{% else %}
 <div id="post">
+{% endif %}
   <section class="post-header">
     <h1 class="title">{{ page.title }}</h1>
     <p class="subtitle">{{ page.subtitle }}</p>
