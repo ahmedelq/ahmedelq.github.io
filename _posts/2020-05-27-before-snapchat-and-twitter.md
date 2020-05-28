@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ما قبل تويتر وسناب شات
-subtitle : العصر الذهبي للمنتديات
+subtitle : العصر الذهبي للمنتديات في القطيف
 author: Ahmed Alq
 tags: [opinions]
 comments : true
