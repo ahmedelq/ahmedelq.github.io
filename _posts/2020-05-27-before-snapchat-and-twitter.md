@@ -35,9 +35,9 @@ lang: true
 
 لربما سهولة تنصيب وتهيئة نظام المنتديات وحافز الإعلانات ساهم بعمل ثورة للمنتديات استمرت منذ 2003 وحتى أواخر العقد الألفي أي تقريباً بين 2010 و 2011م وبلغت ذروتها بين عامي 2007 و 2008م، وكما ذكرت سابقاً كان تقريباً لكل منطقة في القطيف منتدى خاص بها إن لم يكن أكثر، حتى أن بعض العوائل أنشأت منتديات مقفلة خاصة بها. 
 
-نجاح منتدى يعتمد على 3 نقاط أساسية: الأسبق في التأسيس، الأنجح في الإدارة، الأبسط في التصميم وهذه تنطبق على منتدى تاروت الثقافي ومنتدى سنابس، ومنتدى الخليج اللذي لا زال للآن نقطة التقاء لأبناء منطقة سيهات. 
+نجاح منتدى يعتمد على 3 نقاط أساسية: الأسبق في التأسيس، الأنجح في الإدارة، الأبسط في التصميم وهذه تنطبق على منتدى تاروت الثقافي ومنتدى سنابس، ومنتدى الخليج اللذي لا يزال إلى الآن نقطة التقاء لأبناء منطقة سيهات. 
 
-والمنتديات على صنفين: العامة أو "الثقافية" تضم عدة أقسام في الأخبار، التراث، الصور، ... والأخرى مختصة في مجال معين [كالأدب](http://www.alfaseeh.com/vb/forum.php) أو [التقنية](https://www.adslgate.com/dsl/) أو [الحياة الجامعية](https://www.stkfupm.com/forum/). وهي التي صمدت ولا زال كثير منها فعال كما كان. 
+والمنتديات على صنفين: العامة أو "الثقافية" تضم عدة أقسام في الأخبار، التراث، الصور، ... والأخرى مختصة في مجال معين [كالأدب](http://www.alfaseeh.com/vb/forum.php) أو [التقنية](https://www.adslgate.com/dsl/) أو [الحياة الجامعية](https://www.stkfupm.com/forum/). وهي التي صمدت للآن. 
 
 كما مع معظم الأشياء التي أسيئ استخدامها لم يتوانى بعض إداريو المنتديات الناجحة في استغلال جهد المستخدمين واحتكاره وكأنه أصبح ملكهم؛ فجعلوا الروابط مخفية تتطلب التسجيل أو الأدهى التسجيل والرد على الموضوع. في آنها كانت المنتديات هي المصدر الأول للمعلومات والوسائط، من إعداد الأطباق ومشاركة تجارب السفر إلى الأفلام والبرامج. 
 
@@ -186,18 +186,18 @@ lang: true
 | ![img](https://i.imgur.com/k74caua.png?1) | 2009                 | 470,174       | 50,815       | 16,928      | [alsafa.net](https://web.archive.org/web/20090208092525/http://alsafa.net/vb) |
 |                       منتديات جزيرة دارين | 2009                 | 374,089       | 48,611       | 6,501       | dareen.ws                                                    |
 |   ![img](https://i.imgur.com/b7TKD8K.gif) | 2011                 | 255,184       | 69,326       | 17,526      | [aljesh.net](https://web.archive.org/web/20101225011902/http://www.aljesh.net/vb/) |
-|   ![img](https://i.imgur.com/whXOacx.png) | لا زال يعمل          | 1,490,346     | 161,183      | 25,082      | [khaleejsaihat.net](http://khaleejsaihat.net)                |
+|   ![img](https://i.imgur.com/whXOacx.png) | لا يزال يعمل         | 1,490,346     | 161,183      | 25,082      | [khaleejsaihat.net](http://khaleejsaihat.net)                |
 |   ![img](https://i.imgur.com/4B0JISP.png) | 2016                 | 1,222,691     | 153,907      | 32,259      | [saihat.net](https://web.archive.org/web/20160329180430/http://saihat.net/vb/forum.php) |
 |   ![img](https://i.imgur.com/bBCFL74.gif) | 2007                 | 22,331        | 4,044        | 1,648       | [qatifgate.net](https://web.archive.org/web/20060907132215/http://www.qatifgate.net/vb/) |
-| ![img](https://i.imgur.com/BY50Ty4.png?1) | لا زال يعمل          | 832,910       | 53,253       | 8,715       | [qudaih.com/vb](http://www.qudaih.com/vb/index.php)          |
+| ![img](https://i.imgur.com/BY50Ty4.png?1) | لا يزال يعمل         | 832,910       | 53,253       | 8,715       | [qudaih.com/vb](http://www.qudaih.com/vb/index.php)          |
 | ![img](https://i.imgur.com/y0HX0NE.png?1) | 2014                 | 254,450       | 23,239       | 16,790      | [qatifracing.net](https://web.archive.org/web/20131206033607/http://www.qatifracing.net/vb/forum.php) |
 |   ![img](https://i.imgur.com/xIsCHyU.png) | 2014                 | 977,546       | 86,866       | 205,209     | [mrsaawam.com](https://web.archive.org/web/20120930202823/http://mrsaawam.com/vb/) |
 |                             شبكة بني عوام | 2006                 | 241,036       | 20,891       | 6,738       | [baniawam.net](http://web.archive.org/web/20051106015202/http://www.baniawam.net/vb/index.php) |
 |   ![img](https://i.imgur.com/dc6Btj6.png) | 2008                 | 126,438       | 24,813       | 5,056       | [safwanet.net](http://web.archive.org/web/20070210143240/http://www.safwanet.net/vb/index.php?&PHPSESSID=01f1886cbf54a08268d84ea77a5fd8a7) |
 |   ![img](https://i.imgur.com/leTVuSv.png) | 2014                 | 255,339       | 42,765       | 17,113      | qatifona.info                                                |
-|   ![img](https://i.imgur.com/5ZJKvj7.png) | لا زال يعمل          | 174,160       | 25,974       | 4,138       | [alaaliwat.com](http://alaaliwat.com/vb/)                    |
-| ![img](https://i.imgur.com/MYNERbx.png?1) | لا زال يعمل          | 1,589,250     | 136,842      | 16,606      | [tarout.info/montada](http://tarout.info/montada/)           |
-|   ![img](https://i.imgur.com/xF5andw.png) | لا زال يعمل          | 1,248,820     | 95,296       | 78,020      | [alnassrah.com](www.alnassrah.com/forum.php)                 |
+|   ![img](https://i.imgur.com/5ZJKvj7.png) | لا يزال يعمل         | 174,160       | 25,974       | 4,138       | [alaaliwat.com](http://alaaliwat.com/vb/)                    |
+| ![img](https://i.imgur.com/MYNERbx.png?1) | لا يزال يعمل         | 1,589,250     | 136,842      | 16,606      | [tarout.info/montada](http://tarout.info/montada/)           |
+|   ![img](https://i.imgur.com/xF5andw.png) | لا يزال يعمل         | 1,248,820     | 95,296       | 78,020      | [alnassrah.com](www.alnassrah.com/forum.php)                 |
 |                 منتدى أحلام تاروت الثقافي | 2011                 | 105,296       | 9,717        | 264         | tarotna.net                                                  |
 |                       منتديات مرسى القطيف | 2012؟                | 102,530       | 8,609        | 737         | marsaa-q.com                                                 |
 |                        منتديات مرح القطيف | 2011؟                | 55,606        | 6,914        | 2,309       | marh-q.com                                                   |
