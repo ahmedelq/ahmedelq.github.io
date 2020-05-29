@@ -11,7 +11,7 @@ theme_settings :
   profile :
     image : assets/img/dp.png
     username : Ahmed Helmi
-    description : Interested in CompSci & MATH.
+    description : Passionate learner.
     experience :
       - start : 2017-05-03
         end : 2018-05-06
@@ -22,8 +22,8 @@ theme_settings :
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
-    linkedin:  # Full URL 
+    email:  
+    linkedin:  
     github: ahmedelq
     gitlab: 
     bitbucket: 

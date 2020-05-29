@@ -1,0 +1,36 @@
+---
+layout: page
+my_var: contact_submit.js
+scripts:
+  - contact_submit.js
+  - modal.js
+---
+{% assign profile = site.theme_settings.profile %}
+
+</div><!-- This Tag means End .container -->
+<div id="protfolio">
+
+  <!-- feedback section -->
+  <section id="career" class="row">
+  
+    <article id='container' class="col-12">
+		<p class="title" style="color:white; text-align:center;">Send constructive feedback 😀</p>
+		
+    <div class="d-none" id="thankyou"> 
+      I appreciate your honesty, the feedback has been sent. 🌹
+    </div>
+		<form>
+				<div class="form-group row">
+					<textarea class="form-control col-12" rows="5" name="feedback" id="message"></textarea>
+				</div>
+          <button type="button" id="send" class="btn"><i id="icon" class="far fa-paper-plane"></i></button>
+		</form>
+		
+    </article>
+	
+  </section>
+
+
+</div>
+{% include footer.html %}
+
