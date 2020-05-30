@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TIL: Named tuples
+title: Named tuples
 author: Ahmed Alq
 tags: [TIL]
 comments : true
