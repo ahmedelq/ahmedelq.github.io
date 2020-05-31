@@ -9,6 +9,18 @@ comments : true
 
 Softmax is a function that turns a vector of numerical values into probabilities, it is used at the output layer to spit probabilities for the different classes in that neural network that add up to 1, In other words, the classes must be mutually exclusive, if not then better use Sigmoid function. Softmax has a nice property: it balances unscaled values. 
 
+Implementation in Tensorflow:
+
+```python
+def softmax(tens):
+    exps = tf.map_fn(lambda x: tf.exp(x), tens)
+    sum_ = tf.reduce_sum(exps, 1, keepdims=True)
+    p = exps / sum_
+    return p
+```
+
+
+
 ## Further reading
 
 * [Wikipedia](https://en.wikipedia.org/wiki/Softmax_function)
