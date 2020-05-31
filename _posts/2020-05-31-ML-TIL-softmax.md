@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Named tuples
+title: Softmax
 author: Ahmed Alq
-tags: [TIL]
+tags: [TIL, ML, DL]
 comments : true
  
 ---
