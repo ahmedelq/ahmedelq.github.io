@@ -23,7 +23,7 @@ This applies to any() and all() as well.
 
 ## "Eager" evaluation 
 
-& and | are actually used for bitwise operation, but can achieve the desired results. 
+These actually are used for bitwise operation, but can achieve the desired results. 
 
 ```python
 >>> if empty_dict & empty_dict['key']:
@@ -39,4 +39,4 @@ KeyError: 'key'
 ## Further reading
 
 * [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
-* [& and |](https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations) 
+* [Official docs](https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations
