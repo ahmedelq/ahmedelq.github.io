@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Lazy vs. eager if statement in python
+title: if statement lazy evaluation in python
 author: Ahmed Alq
-tags: [TIL, python]
+tags: [python]
 comments : true
  
 
 ---
 
-This is a basic concept in python (and Java) and I think other programming languages as well. It is pretty straight-forward and self-explanatory: 
+This is pretty straight-forward and self-explanatory: 
 
-## Lazy evaluation (Short-circuit)
+## Short-circuit
 
 ```python
 >>> empty_dict = {}
@@ -19,7 +19,11 @@ This is a basic concept in python (and Java) and I think other programming langu
 	 	pass
 ```
 
-## Eager evaluation
+This applies to any() and all() as well. 
+
+## "Eager" evaluation 
+
+& and | are actually used for bitwise operation, but can achieve the desired results. 
 
 ```python
 >>> if empty_dict & empty_dict['key']:
@@ -34,4 +38,5 @@ KeyError: 'key'
 
 ## Further reading
 
-* https://en.wikipedia.org/wiki/Lazy_evaluation
+* [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
+* [& and |](https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations) 
