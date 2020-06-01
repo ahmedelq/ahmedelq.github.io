@@ -39,4 +39,4 @@ KeyError: 'key'
 ## Further reading
 
 * [Short-circuit evaluation](https://en.wikipedia.org/wiki/Short-circuit_evaluation)
-* [Official docs](https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations
+* [Official docs](https://docs.python.org/3/reference/expressions.html#binary-bitwise-operations)
