@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+/*  if (location.protocol !== "https:") {
+        location.protocol = "https:";
+  } */
+  </script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48121681-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-48121681-2');
+</script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!--Favicon-->
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="manifest" href="/assets/site.webmanifest">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+
+  <!-- Spoqa Han Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+   <!-- Amiri Arabic font -->
+   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet"> 
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  <!-- OG Tag -->
+  
+  <meta name="title" content="Alq: TIL&#58; defaultdict" />
+  <meta name="author" content="Ahmed Helmi" />
+  <meta name="keywords" content="python" />
+  <meta name="description" content="" />
+  <meta name="robots" content="index,follow" />
+
+  <meta property="og:title" content="Alq: TIL&#58; defaultdict" />
+  <meta property="og:description" content="" />
+  <meta property="og:type" content="website, blog" />
+  <meta property="og:image"
+    content="http://localhost:4000/assets/img/dp.png" />
+  <meta property="og:site_name" content="Alq" />
+  <meta property="og:url" content="http://localhost:4000/2020/06/02/python-TIL-defaultdict.html" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Alq: TIL&#58; defaultdict" />
+  <meta name="twitter:description" content="" />
+  <meta name="twitter:image"
+    content="http://localhost:4000/assets/img/dp.png" />
+
+  <title>Alq: TIL&#58; defaultdict</title>
+</head>
+
+<body>
+  <div class="container">
+    
+
+<header>
+  <nav>
+    <ul>
+      
+      <!-- others -->
+      <a href="http://localhost:4000">
+        <li class="current btn-nav">Blog</li>
+      </a>
+      <a href="http://localhost:4000/tags">
+        <li class="btn-nav">Tags</li>
+      </a>
+      
+    </ul>
+  </nav>
+</header>
+
+<div id="post">
+
+  <section class="post-header">
+    <h1 class="title">TIL&#58; defaultdict</h1>
+    <p class="subtitle"></p>
+    <p class="meta">
+      June 2, 2020
+    </p>
+  </section>
+  <section class="post-content">
+    <p>One of the things that are very helpful that I just learned: <a href="https://docs.python.org/3.9/library/collections.html#collections.defaultdict"><code class="highlighter-rouge">defaultdict</code></a></p>
+
+<p>Basically you it takes a base factory or formally <code class="highlighter-rouge">default_factory</code>, and invokes it for every key assignment even for missing keys.</p>
+
+<p>Previously I was doing something <em>like this</em> (for nested dictionaries):</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="s">'Qatif'</span><span class="p">,</span> <span class="s">'Reda'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Dammam'</span><span class="p">,</span> <span class="s">'Mustafa'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Khobar'</span><span class="p">,</span> <span class="s">'Eman'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Qatif'</span><span class="p">,</span> <span class="s">'Abdullah'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Khobar'</span><span class="p">,</span> <span class="s">'Ali'</span><span class="p">)]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">normal_dict</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">region</span><span class="p">,</span><span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span>
+    	<span class="n">x_names</span> <span class="o">=</span> <span class="n">normal_dict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">region</span><span class="p">,</span> <span class="p">[])</span>
+    	<span class="n">x_names</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+    	<span class="n">normal_dict</span><span class="p">[</span><span class="n">region</span><span class="p">]</span> <span class="o">=</span> <span class="n">x_names</span>
+ <span class="o">&gt;&gt;&gt;</span> <span class="n">normal_dict</span>
+<span class="p">{</span><span class="s">'Qatif'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Reda'</span><span class="p">,</span> <span class="s">'Abdullah'</span><span class="p">],</span>
+ <span class="s">'Dammam'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Mustafa'</span><span class="p">],</span>
+ <span class="s">'Khobar'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Eman'</span><span class="p">,</span> <span class="s">'Ali'</span><span class="p">]}</span>
+</code></pre></div></div>
+
+<p>Oneliner with <code class="highlighter-rouge">list</code> as the <code class="highlighter-rouge">default_factory</code> 😉:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">names</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="s">'Qatif'</span><span class="p">,</span> <span class="s">'Reda'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Dammam'</span><span class="p">,</span> <span class="s">'Mustafa'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Khobar'</span><span class="p">,</span> <span class="s">'Eman'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Qatif'</span><span class="p">,</span> <span class="s">'Abdullah'</span><span class="p">),</span> <span class="p">(</span><span class="s">'Khobar'</span><span class="p">,</span> <span class="s">'Ali'</span><span class="p">)]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">default_dict</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">region</span><span class="p">,</span><span class="n">name</span> <span class="ow">in</span> <span class="n">names</span><span class="p">:</span> <span class="n">default_dict</span><span class="p">[</span><span class="n">region</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">default_dict</span>
+<span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">,</span>
+            <span class="p">{</span><span class="s">'Qatif'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Reda'</span><span class="p">,</span> <span class="s">'Abdullah'</span><span class="p">],</span>
+             <span class="s">'Dammam'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Mustafa'</span><span class="p">],</span>
+             <span class="s">'Khobar'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Eman'</span><span class="p">,</span> <span class="s">'Ali'</span><span class="p">]})</span>
+</code></pre></div></div>
+
+<p>Let’s try with <code class="highlighter-rouge">int</code>:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="n">grades</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="s">'Ali'</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span> <span class="p">(</span><span class="s">'Mohd'</span><span class="p">,</span> <span class="mi">8</span><span class="p">),</span> <span class="p">(</span><span class="s">'Reda'</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="p">(</span><span class="s">'Ali'</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span> <span class="p">(</span><span class="s">'Mohd'</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="p">(</span><span class="s">'Reda'</span><span class="p">,</span> <span class="mi">6</span><span class="p">)]</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">counter_dict</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="k">for</span> <span class="n">region</span><span class="p">,</span><span class="n">temp</span> <span class="ow">in</span> <span class="n">grades</span><span class="p">:</span> <span class="n">counter_dict</span><span class="p">[</span><span class="n">region</span><span class="p">]</span> <span class="o">+=</span> <span class="n">temp</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">counter_dict</span>
+<span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">,</span> <span class="p">{</span><span class="s">'Ali'</span><span class="p">:</span> <span class="mi">16</span><span class="p">,</span> <span class="s">'Mohd'</span><span class="p">:</span> <span class="mi">13</span><span class="p">,</span> <span class="s">'Reda'</span><span class="p">:</span> <span class="mi">13</span><span class="p">})</span>
+</code></pre></div></div>
+
+
+  </section>
+</div>
+
+<div id="top" class="top-btn" onclick="moveTop()">
+  <i class="fas fa-chevron-up"></i>
+</div>
+
+<!-- Disqus -->
+
+<div id="comments">
+  <div class="border">
+    <div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'https-ahmedelq-sa';
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript></noscript>
+  </div>
+</div>
+
+
+<!-- Footer -->
+<footer>
+  <div class="footer">
+    Original theme by
+    <a href="https://github.com/NAYE0NG">Nayeong Kim</a> | <a href="/privacypolicy">Privacy Policy</a>
+  </div>
+</footer>
+
+
+<script>
+  var lastScrollTop = 0;
+  window.onscroll = function () {
+    var st = document.body.scrollTop || document.documentElement.scrollTop;
+    if (st > 250) {
+      document.getElementById("top").style.display = "block"
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.opacity = 0
+      } else {
+        document.getElementById("top").style.opacity = 1
+      }
+    } else {
+      document.getElementById("top").style.opacity = 0
+      if (st > lastScrollTop) {
+        document.getElementById("top").style.display = "none"
+      }
+    }
+    lastScrollTop = st <= 0 ? 0 : st;
+  }
+  function moveTop() {
+    document.body.scrollTop = 0
+    document.documentElement.scrollTop = 0
+  }
+</script>
+  </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
+
+</html>

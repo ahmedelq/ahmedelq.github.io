@@ -2,6 +2,11 @@
 <html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script>
+/*  if (location.protocol !== "https:") {
+        location.protocol = "https:";
+  } */
+  </script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48121681-2"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -26,33 +31,37 @@
 
   <!-- Spoqa Han Sans -->
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet">
+   <!-- Amiri Arabic font -->
+   <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet"> 
+
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/main.css">
 
   <!-- OG Tag -->
   
-  <meta name="title" content="Alq: Hello world" />
+  <meta name="title" content="Alq: Named tuples" />
   <meta name="author" content="Ahmed Helmi" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="Once again!" />
+  <meta name="keywords" content="TIL" />
+  <meta name="description" content="" />
   <meta name="robots" content="index,follow" />
 
-  <meta property="og:title" content="Alq: Hello world" />
-  <meta property="og:description" content="Once again!" />
+  <meta property="og:title" content="Alq: Named tuples" />
+  <meta property="og:description" content="" />
   <meta property="og:type" content="website, blog" />
   <meta property="og:image"
     content="http://localhost:4000/assets/img/dp.png" />
   <meta property="og:site_name" content="Alq" />
-  <meta property="og:url" content="http://localhost:4000/2020/04/15/warum-lerne-ich-deutsch.html" />
+  <meta property="og:url" content="http://localhost:4000/2020/05/30/python-TIL-namedtuple.html" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Alq: Hello world" />
-  <meta name="twitter:description" content="Once again!" />
+  <meta name="twitter:title" content="Alq: Named tuples" />
+  <meta name="twitter:description" content="" />
   <meta name="twitter:image"
     content="http://localhost:4000/assets/img/dp.png" />
 
-  <title>Alq: Hello world</title>
+  <title>Alq: Named tuples</title>
 </head>
+
 <body>
   <div class="container">
     
@@ -72,20 +81,36 @@
     </ul>
   </nav>
 </header>
+
 <div id="post">
+
   <section class="post-header">
-    <h1 class="title">Hello world</h1>
-    <p class="subtitle">Once again!</p>
+    <h1 class="title">Named tuples</h1>
+    <p class="subtitle"></p>
     <p class="meta">
-      April 15, 2020
+      May 30, 2020
     </p>
   </section>
   <section class="post-content">
-    <p>Als ich mit 16 anfing zu fahren, mein erstes Auto war ‘83 Mercedes-Benz E-Klasse, der 30+ Jahre alt Maschine war nicht schlecht. Immerhin hat es micht gelehrt Maschinenbau bei. Ich   wurde gezwungen die Etiketten lesen. das war der “spark”. Die starke detusche Technik hat mir sehr gut gefallen.</p>
+    <p><strong>Main purpose</strong>: To improve readability, handy for CSV manipulation.
+Just as normal tuples, named tuples are immutable; can’t be changed.</p>
 
-<p>leute frag mich manchmal: “warum lernst du deutsch?, was ist der Sinn? wurdest du im Deutschland leben?” und ich sage “Nee, das ist nicht der Fall”. Detusch ist nicht die Sprache     der Liebe wie Französisch, keine der am meisten gesprochenen Sprachen. Aber ich glaube, deutsch ist die Sprache der Wissenschaft und Philosophe.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">&gt;&gt;&gt;</span> <span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">namedtuple</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">json</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">Person</span> <span class="o">=</span> <span class="n">namedtuple</span><span class="p">(</span><span class="s">'Person'</span><span class="p">,</span> <span class="p">[</span><span class="s">'name'</span><span class="p">,</span><span class="s">'age'</span><span class="p">])</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">p1</span> <span class="o">=</span> <span class="n">Person</span><span class="p">(</span><span class="s">'ali'</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">p1</span>
+<span class="s">'["ali", 30]'</span>
+<span class="o">&gt;&gt;&gt;</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">p1</span><span class="o">.</span><span class="n">_asdict</span><span class="p">())</span>
+<span class="s">'{"name": "ali", "age": 30}'</span>
+</code></pre></div></div>
 
-<p>Auf jeden Fall, ich glaube Mann muss neue Sprachen lernen; es ist ein Tor für jede Kultur, es gibt eine neue Denkweise. Verlasse deine Komfortzone und beginne eine sprache zu lernen.</p>
+<h2 id="further-reading">Further reading</h2>
+
+<ul>
+  <li><a href="https://docs.python.org/3/library/collections.html#collections.namedtuple">Official documentation</a></li>
+  <li><a href="https://dbader.org/blog/writing-clean-python-with-namedtuples">Writing Clean Python With Namedtuples</a></li>
+</ul>
 
   </section>
 </div>
@@ -116,7 +141,7 @@
 <footer>
   <div class="footer">
     Original theme by
-    <a href="https://github.com/NAYE0NG">Nayeong Kim</a>.
+    <a href="https://github.com/NAYE0NG">Nayeong Kim</a> | <a href="/privacypolicy">Privacy Policy</a>
   </div>
 </footer>
 
@@ -147,5 +172,8 @@
 </script>
   </div>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+
 
 </html>
