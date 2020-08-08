@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  منتزة مانجروف في جزيرة تاروت
+title:  منتزه مانجروف في جزيرة تاروت
 subtitle: 
 author: Ahmed Alq
 tags: [Qatif]
