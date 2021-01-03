@@ -8,6 +8,8 @@ comments : true
 lang: true
 ---
 
+![Photo by Akshar Dave](https://i.imgur.com/9v2Fd61.jpg)
+
 In my pocket, I carry a tiny blackhole with me. Or in fact, it carries me. It carries me to fictitious worlds and distorted realities. It swallows my time whenever I touch it. The bright box with its carefully engineered notifications and glamorous colors had been hijacking me unconsciously for years. My ancient brain parts were seduced and manipulated by the far from truth virtual "social" environments (VSE). Connected virtually, absent physically, that was my modus-operandi at every social event: staring at whatever pixels spitted by the bright-box with my back hunched. It wasn't until a late 2017 epiphany that placed things into perspective: 1. ‘Scrolling’ is more of an addictive status-signaling game than a socializing mechanism. 2. Long exposures to VSEs can instill herd mentality.
 
 ## Technology must serve us, not the opposite
@@ -24,7 +26,7 @@ Their effortlessly attainable instantaneous pseudo-accomplishments are slowly su
 
  
 
-## Personality erosion 
+## Think outside the box 
 
 Oftentimes, the notion of truth [^Note 1] is not concluded, it is adopted. And much of what is adopted is a result of long and unconscious media bombardment. The sheer simplicity of the perceived agenda doesn't only make our malleable spongy brains good at absorbing them but also thinking they're uniquely ours. Deceived, therefore, we alter our behavior and beliefs accordingly to match what is seen - not according to an empirical measure or even to a "tried-and-true formula" [^Note 2]. Whoever controls the reins controls the truth; controls whom we love and hate, what we fear and disgust, how we dress and act.
 
