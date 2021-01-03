@@ -28,7 +28,7 @@ Their effortlessly attainable instantaneous pseudo-accomplishments are slowly su
 
 ## Think outside the box 
 
-Oftentimes, the notion of truth [^Note 1] is not concluded, it is adopted. And much of what is adopted is a result of long and unconscious media bombardment. The sheer simplicity of the perceived agenda doesn't only make our malleable spongy brains good at absorbing them but also thinking they're uniquely ours. Deceived, therefore, we alter our behavior and beliefs accordingly to match what is seen - not according to an empirical measure or even to a "tried-and-true formula" [^Note 2]. Whoever controls the reins controls the truth; controls whom we love and hate, what we fear and disgust, how we dress and act.
+Oftentimes, the notion of truth [^1] is not concluded, it is adopted. And much of what is adopted is a result of long and unconscious media bombardment. The sheer simplicity of the perceived agenda doesn't only make our malleable spongy brains good at absorbing them but also thinking they're uniquely ours. Deceived, therefore, we alter our behavior and beliefs accordingly to match what is seen - not according to an empirical measure or even to a "tried-and-true formula" [^2]. Whoever controls the reins controls the truth; controls whom we love and hate, what we fear and disgust, how we dress and act.
 
 I noticed how my personality had been nearly eroded unconsciously by emotionally appealing fairy-tales (or rather ideologies) popular among the fueled rabble of the VSE. I would see many such easy to digest, scientifically-ill (and even culturally-ill) apocryphal ideologies, being parroted dogmatically all over the platform. Often warranted with social issues if not sugar-coated with fabricated ones. But even if valid, the ostensibly plausible suggested solution remains far worse than the problem. 
 
@@ -38,6 +38,6 @@ It is a choice to leverage technology or get abused by it; a mindless usage can 
 
 But unless we dare to question this odious habit, thwart this plot against our attention, and claim our sovereignty back, a myriad of data-hungry algorithms will conspire to keep us captivated to our primal instincts to increase their utility, to dictate how we must live, and all in all, deprive us from discovering and unlocking great hidden potentials within us - we would fail to know life to its fullest. Our boredom must be embraced, not indulgently escaped.
 
-[^Note 1]: By truth I mean the set of assumptions we believe to be valid. The pillars on which we stand to interpret the world and behave.
-[^Note 2]: e.g culture.
+[^1]: By truth I mean the set of assumptions we believe to be valid. The pillars on which we stand to interpret the world and behave.
+[^2]: e.g culture.
 
