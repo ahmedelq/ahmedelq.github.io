@@ -38,6 +38,8 @@ It is a choice to leverage technology or get abused by it; a mindless usage can 
 
 But unless we dare to question this odious habit, thwart this plot against our attention, and claim our sovereignty back, a myriad of data-hungry algorithms will conspire to keep us captivated to our primal instincts to increase their utility, to dictate how we must live, and all in all, deprive us from discovering and unlocking great hidden potentials within us - we would fail to know life to its fullest. Our boredom must be embraced, not indulgently escaped.
 
+## Notes 
+
 [^1]: By truth I mean the set of assumptions we believe to be valid. The pillars on which we stand to interpret the world and behave.
 [^2]: e.g culture.
 
