@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"X13+":function(n,t,e){"use strict";e.d(t,"a",(function(){return a}));var o=e("Lnxd");function a(n){return Object(o.a)({tag:"svg",attr:{viewBox:"0 0 16 16",fill:"currentColor"},child:[{tag:"path",attr:{fillRule:"evenodd",d:"M8 9.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z",clipRule:"evenodd"}}]})(n)}}}]);
-//# sourceMappingURL=0c428ae2-09aeaa86105037a502ed.js.map
